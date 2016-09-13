@@ -2,7 +2,6 @@ body {
   background-color: #9FD175;
 }
 
-h1 {
-  text-align: center;
-  font-family:Helvetica;
+.menu {
+  list-style: none;
 }
