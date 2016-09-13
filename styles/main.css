@@ -6,4 +6,8 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #E5E5E5;
+  margin: 15px 10px 15px 10px;
 }
