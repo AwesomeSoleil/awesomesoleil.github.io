@@ -13,3 +13,20 @@ body {
   border-color: #E5E5E5;
   margin: 15px 10px 15px 10px;
 }
+
+.menu li {
+  margin-bottom: 8px;
+  color: #0088CC;
+}
+
+a:link {
+  
+}
+
+a:visited {
+  
+}
+
+a:active {
+  
+}
