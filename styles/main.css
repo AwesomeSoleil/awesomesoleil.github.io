@@ -8,4 +8,5 @@ body {
 
 .horizontal li {
   display: inline;
+  margin-right: 5em;
 }
