@@ -11,6 +11,7 @@ body {
 
 .menu a {
   display: block;
+  padding: 8px 14px;
   color: #0088CC;
   text-decoration: none;
 }
