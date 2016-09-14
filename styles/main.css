@@ -13,7 +13,6 @@ body {
   display: block;
   color: #0088CC;
   text-decoration: none;
-  padding: 8px 14px;
 }
 
 a:hover {
@@ -27,6 +26,7 @@ a:hover {
 }
 
 .menu > li {
+    padding: 8px 14px;
     margin-bottom: -1px;
     border-style: solid;
     border-width: 1px;
