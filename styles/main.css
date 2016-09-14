@@ -2,48 +2,10 @@ body {
   font-family: Helvetica;
 }
 
-.vertical_menu {
-  width: 180px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.vertical_menu a {
-  display: block;
-  padding: 8px 14px;
-  color: #0088CC;
-  text-decoration: none;
-}
-
-.vertical_menu a:hover {
-  background: #F5F5F5;
-}
-
-.vertical_menu ul {
-  padding: 5px 0 5px 30px;
-  margin: 0;
+.menu {
   list-style: none;
 }
 
-.vertical_menu > li {
-  margin-bottom: -1px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #E5E5E5;
-}
-
-.vertical_menu li li a {
-  color: #000000;
-  padding: 0 3px 0 3px;
-}
-
-.vertical_menu li li a:hover {
-  background: none;
-  text-decoration: underline;
-}
-
-.horizontal_menu li {
+.horizontal {
   display: inline;
-  margin-right: 5px;
 }
