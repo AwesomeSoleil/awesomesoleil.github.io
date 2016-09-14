@@ -11,5 +11,9 @@ body {
 
 .horizontal li {
   display: inline;
-  margin-right: 1em;
+  margin-right: 5px;
+}
+
+.vertical {
+  width: 200px;
 }
