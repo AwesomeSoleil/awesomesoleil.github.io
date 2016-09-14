@@ -22,10 +22,10 @@ body {
   margin-right: 5px;
 }
 
-.horizontal li ul {
-  list-style: none;
-}
-
 .vertical {
   width: 200px;
+}
+
+.vertical ul {
+  list-style: none;
 }
