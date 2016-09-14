@@ -6,6 +6,9 @@ body {
   list-style: none;
   margin: 0;
   padding: 10px 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #E5E5E5;
   background: #F5F5F5;
 }
 
