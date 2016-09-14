@@ -22,6 +22,10 @@ body {
   margin-right: 5px;
 }
 
+>horizontal li li {
+  list-style: none;
+}
+
 .vertical {
   width: 200px;
 }
