@@ -34,11 +34,11 @@ a:hover {
 }
 
 .menu li li a {
-  color: #FFFFFF;
+  color: #000000;
   padding: 0 3px 0 3px;
 }
 
 .menu li li a:hover {
-  background-color: none;
+  background: none;
   text-decoration: underline;
 }
