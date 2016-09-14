@@ -9,6 +9,11 @@ body {
   background: #F5F5F5;
 }
 
+.menu a {
+  text-decoration: none;
+  color: #0088CC;
+}
+
 .horizontal li {
   display: inline;
   margin-right: 5px;
