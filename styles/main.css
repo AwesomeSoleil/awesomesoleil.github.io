@@ -13,6 +13,7 @@ body {
 }
 
 .menu a {
+  display: block;
   text-decoration: none;
   color: #0088CC;
 }
