@@ -1,1 +1,2 @@
-document.getElementByTagName("p").innerHTML = new Date().toDateString();
+var todayIs = new Date();
+document.getElementByTagName("p").innerHTML = todayIs.toDateString();
