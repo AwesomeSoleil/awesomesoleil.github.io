@@ -1,3 +1,11 @@
 body {
-  font-family: Helvetica;
+    font-family: helvetica;
+}
+
+#mainCanvas {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 5px;
+    width: 40%;
 }
