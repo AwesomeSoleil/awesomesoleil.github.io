@@ -44,6 +44,29 @@ a:hover {
 Layout Styles
 ****************************
 ***************************/
+/*Targets all classes that start with .col-*/
+[class*='col-'] {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Target small devices and above*/
+@media (min-width: 48em) {
+    /*Overwrites initial instance of this when the screen is small and above*/
+    [class*='col-'] {
+        float: left; /*Gets columns to stack horizontally when the screen is small and above*/
+    }
+    /*Defines a one-third width column*/
+    .col-1-3 {
+    width: 33.3333%;
+    }
+    /*Defines a two-thirds width column*/
+    .col-2-3 {
+    width: 66.6666%;
+    }
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -57,12 +80,12 @@ Layout Styles
     margin-left: -15px;
 }
 
+/*Clear any floated elements inside the .row*/
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
-
 
 /***************************
 ****************************
