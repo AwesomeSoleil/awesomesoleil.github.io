@@ -59,19 +59,14 @@ Layout Styles
     }
     /*Defines a one-third width column*/
     .col-1-3 {
-    width: 33.3333%;
+        width: 33.3333%;
     }
     /*Defines a two-thirds width column*/
     .col-2-3 {
-    width: 66.6666%;
+        width: 66.6666%;
     }
-}
-
-/*Yes, two of the same media queries.  This is just to keep the code easier to read*/
-@media (min-width: 48em) {
-    /*Floats an element to the right*/
     .pull-right-sm {
-    float: right;
+        float: right;
     }
 }
 
