@@ -67,6 +67,14 @@ Layout Styles
     }
 }
 
+/*Yes, two of the same media queries.  This is just to keep the code easier to read*/
+@media (min-width: 48em) {
+    /*Floats an element to the right*/
+    .pull-right-sm {
+    float: right;
+    }
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -80,7 +88,7 @@ Layout Styles
     margin-left: -15px;
 }
 
-/*Clear any floated elements inside the .row*/
+/*Clears any floated elements inside the .row*/
 .row::after {
     content: "";
     display: table;
