@@ -45,7 +45,7 @@ Layout Styles
 ****************************
 ***************************/
 /*Targets all classes that start with .col-*/
-*[class='col-'] {
+[class*='col-'] {
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -54,7 +54,7 @@ Layout Styles
 /*Target small devices and above*/
 @media (min-width: 48em) {
     /*Overwrites initial instance of this when the screen is small and above*/
-    *[class='col-'] {
+    [class*='col-'] {
         float: left; /*Gets columns to stack horizontally when the screen is small and above*/
     }
     /*Defines a one-third width column*/
