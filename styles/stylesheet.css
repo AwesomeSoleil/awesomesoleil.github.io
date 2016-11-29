@@ -73,6 +73,10 @@ Layout Styles
     .col-1-4 {
         width: 25%;
     }
+    .no-gutter {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     .pull-right-sm {
         float: right;
     }
@@ -82,8 +86,8 @@ Layout Styles
 For extra small devices, I need to stack content so that it is flush with the window and remove any margin padding*/
 @media only screen and (max-width: 47.9375em) {
     .remove-gutter-xs {
-    padding-left: 0px;
-    padding-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
