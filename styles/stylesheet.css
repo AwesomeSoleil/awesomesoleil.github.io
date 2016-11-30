@@ -49,12 +49,6 @@ Layout Styles
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-footer [class*='col-'] {
-    width: 100%;
-    padding: 0;
-    text-align: right;
 } 
 
 /*Target small devices and above*/
@@ -71,17 +65,14 @@ footer [class*='col-'] {
     .col-2-3 {
         width: 66.6666%;
     }
-    /*Defines a half column*/
-    .col-1-2 {
-        width: 50%;
-    }
-    /*Defines a quarter column*/
-    .col-1-4 {
-        width: 25%;
-    }
 
     .pull-right-sm {
         float: right;
+    }
+    
+    .strike-through {
+        min-height: 1px;
+        background-color: #FFFFFF;
     }
 }
 
