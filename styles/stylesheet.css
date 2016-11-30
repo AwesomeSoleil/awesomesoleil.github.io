@@ -107,7 +107,7 @@ For extra small devices, I need to stack content so that it is flush with the wi
     margin-left: -15px;
 }
 
-footer .row {
+footer [class*='col-'] {
     text-align: center;
 }
 
