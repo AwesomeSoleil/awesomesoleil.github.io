@@ -51,6 +51,12 @@ Layout Styles
     padding-right: 15px;
 }
 
+footer [class*='col-'] {
+    width: 100%;
+    padding: 0;
+    text-align: right;
+} 
+
 /*Target small devices and above*/
 @media (min-width: 48em) {
     /*Overwrites initial instance of this when the screen is small and above*/
@@ -76,11 +82,6 @@ Layout Styles
 
     .pull-right-sm {
         float: right;
-    }
-    
-    footer .row: {
-        text-align: right;
-        padding: 0;
     }
 }
 
