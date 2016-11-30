@@ -74,6 +74,12 @@ Layout Styles
         min-height: 1px;
         background-color: #FFFFFF;
     }
+    
+    footer [class*='col-'] {
+        text-align: right;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /*This is the size from the last media query minus a pixel.
