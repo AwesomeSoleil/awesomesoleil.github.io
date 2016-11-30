@@ -78,8 +78,8 @@ Layout Styles
         float: right;
     }
     
-    footer: {
-        text-align: center;
+    footer .row: {
+        text-align: right;
         padding: 0;
     }
 }
@@ -104,6 +104,10 @@ For extra small devices, I need to stack content so that it is flush with the wi
 .row {
     margin-right: -15px;
     margin-left: -15px;
+}
+
+footer .row {
+    text-align: center;
 }
 
 /*Clears any floated elements inside the .row*/
