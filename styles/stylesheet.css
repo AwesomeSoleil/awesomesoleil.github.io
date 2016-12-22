@@ -11,6 +11,8 @@ li {
 }
 
 a {
+    color: #F5F5F5;
+    background-color: #708090;
     text-align: center;
     text-decoration: none;
     display: block;
