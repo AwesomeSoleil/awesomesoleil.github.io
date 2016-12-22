@@ -1,7 +1,8 @@
 @import 'normalize.css';
 
 nav ul {
-    background-color: grey;
+    color: #F5F5F5;
+    background-color: #708090;
     margin-top: -15px;
     padding: 0;
 }
