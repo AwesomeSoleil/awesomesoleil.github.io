@@ -1,13 +1,12 @@
 @import 'normalize.css';
 
 nav ul {
-    color: #F5F5F5;
-    background-color: #708090;
     padding: 0;
 }
 
 li {
-    background-color: lightgrey;
+    color: #F5F5F5;
+    background-color: #708090;
     list-style-type: none;
 }
 
