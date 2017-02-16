@@ -1,0 +1,27 @@
+:target:before { /* correct on page navigation positioning hack */
+	content:"";
+	display:block;
+	height:3.6em;
+	margin:-3.6em 0 0;
+}
+
+.row {
+	margin-top: 3.6em;
+}
+
+.jumbotron {
+	color: #FFFFFF;
+	background-color: #CC77BB;
+}
+
+.img-responsive {
+	background-color: #ADAFBC;
+}
+
+.text-colored {
+	color: #CC77BB;
+}
+
+.rightSide {
+	padding: 1em 0 0 1em;
+}
