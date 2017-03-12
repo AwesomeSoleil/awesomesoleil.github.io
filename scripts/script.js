@@ -15,10 +15,11 @@ $(document).ready(function() {
 	});
 	
 	$("#getMessage").click(function() {
+		var pressure = api.main.pressure * 0.750061561303;
 		$(".message").html("Weather report for " + api.name);
 		$("#temp").html("Temperature is " + api.main.temp + "&#8451;");
-		$("#humidity").html("Humidity is " + api.main.humidity);
-		$("#pressure").html("Pressure is " + api.main.pressure);
+		$("#humidity").html("Humidity is " + api.main.humidity + "&#x00025;");
+		$("#pressure").html("Pressure is " + pressure + " mmHg");
 		var imgSource = "http://openweathermap.org/img/w/" + api.weather[0].icon + ".png";
 		$("#iconImage").attr("src", imgSource);
 	});
