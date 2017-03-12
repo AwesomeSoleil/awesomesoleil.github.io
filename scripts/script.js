@@ -15,7 +15,7 @@ $(document).ready(function() {
 	});
 	
 	$("#getMessage").click(function() {
-		var pressure = api.main.pressure * 0.750061561303;
+		var pressure = Math.round(api.main.pressure * 0.750061561303);
 		$(".message").html("Weather report for " + api.name);
 		$("#temp").html("Temperature is " + api.main.temp + "&#8451;");
 		$("#humidity").html("Humidity is " + api.main.humidity + "&#x00025;");
